@@ -892,16 +892,17 @@ svg {
 
 .score-review .score-review-text p {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    margin-top: 05px;
     font-weight: 300;
 }
 
 .score-review {
     padding: 0px 10px 20px;
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* END REVIEWS */
 
