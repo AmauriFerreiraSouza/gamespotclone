@@ -589,7 +589,6 @@ a {
     display: flex;
     flex: 2;
     flex-direction: column;
-    height: 500px;
     /* background-color: green; */
 }
 
@@ -642,12 +641,25 @@ svg {
     fill: gray;
 }
 
-.editorial-box {
+.editorial-box{
+    position: relative;
     display: flex;
+    cursor: pointer;
     justify-content: space-between;
     width: 96%;
     border-bottom: 1px solid #cccccc;
 }
+
+.editorial-box:hover .editorial-box-title{
+    color: #de004a;
+} 
+
+.editorial-box:hover .editorial-box-img img{
+    display: flex;
+    /* position: absolute; */
+    background-color: #de004a;
+    opacity: 0.5;
+} 
 
 .editorial-box-img {
     display: flex;
@@ -655,6 +667,7 @@ svg {
 }
 
 .editorial-box-img img {
+    position: relative;
     width: 170px;
 }
 
@@ -701,7 +714,7 @@ svg {
 /* END EDITORIAL BOX */
 .secondary-content {
     flex: 1;
-    height: 500px;
+    /* height: 500px; */
     /* background-color: blue; */
 }
 
@@ -835,6 +848,8 @@ svg {
     border-bottom: 1px solid #cccccc;
     font-weight: bold;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .front-door-box-reviews .list-item-reviews {
@@ -851,6 +866,48 @@ svg {
     margin-top: 2px;
     color: gray;
 }
+
+.score-review-ring {
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color:#f30404;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) 50%,#f04737 50%),linear-gradient(198deg, #d8d8d8 50%,rgba(0,0,0,0) 50%);
+}
+
+.score-review-ring .score-review-score {
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 09%;
+    left: 09%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-review .score-review-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.score-review {
+    padding: 0px 10px 20px;
+    margin-top: 15px;
+}
 /* END REVIEWS */
 
 /* END CONTENT */
+
+/* START FOOTER */
+
+
+/* END FOOTER */
