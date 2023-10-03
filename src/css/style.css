@@ -909,6 +909,18 @@ svg {
 /* END CONTENT */
 
 /* START FOOTER */
+#section-footer {
+    display: flex;
+    flex-direction: column;
+}
 
+#section-footer .main-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2d31;
+}
 
+.main-footer .footer-header {
+
+}
 /* END FOOTER */
