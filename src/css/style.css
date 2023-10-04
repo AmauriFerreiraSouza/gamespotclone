@@ -912,15 +912,60 @@ svg {
 #section-footer {
     display: flex;
     flex-direction: column;
+    background-color: #2b2d31;
 }
 
 #section-footer .main-footer {
     display: flex;
     flex-direction: column;
-    background-color: #2b2d31;
 }
 
 .main-footer .footer-header {
-
+    display: flex;
+    width: 100%;
 }
+
+.footer-header .footer-header-left {
+    margin: 0 auto;
+    display: flex;
+    width: 1250px;
+    margin-top: 20px;
+}
+
+.footer-header-left ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    /* background-color: white; */
+}
+
+.footer-header-left ul li a{
+    padding: 0px 18px 0px 0px;
+    color: white;
+}
+
+.footer-header-left ul li #coprights {
+    color: #767474;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    color: white;
+}
+
+.footer-links ul li svg {
+    fill: white
+}
+
 /* END FOOTER */
