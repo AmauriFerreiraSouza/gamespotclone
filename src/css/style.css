@@ -958,6 +958,7 @@ svg {
 
 .footer-links ul li {
     list-style: none;
+    margin-bottom: 5px;
 }
 
 .footer-links ul li a {
@@ -965,7 +966,32 @@ svg {
 }
 
 .footer-links ul li svg {
-    fill: white
+    fill: white;
+    margin-right: 6px;
 }
 
+ul li .footer-links-header {
+    display: flex;
+    color: #878484;
+    margin-bottom: 10px;
+}
+
+.footer-social-icons  strong {
+    grid-column: 1/-1;
+    color: #767474;
+    font-weight:bold;
+}
+
+.footer-more-sites {
+    display: flex;
+}
+
+.footer-social-icons {
+    border-top: 1px solid gray;
+    margin-top: 1px;
+    padding-top: 5px;
+    display: grid;
+    grid-template: auto/repeat(4, max-content);
+    grid-gap: 13px;    
+}
 /* END FOOTER */
