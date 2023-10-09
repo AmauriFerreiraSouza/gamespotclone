@@ -711,6 +711,27 @@ svg {
     margin-bottom: 30px;
 }
 
+.editorial-show-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #de004a; */
+}
+
+.editorial-show-more-button {
+    cursor: pointer;
+    background-color:#de004a;
+    border: 1px solid #de004a;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 10px 4px;
+    margin: 30px 0px 30px 0px;
+}
+
+.editorial-show-more-button:hover {
+    background-color: #e74988;
+}
+
 /* END EDITORIAL BOX */
 .secondary-content {
     flex: 1;
@@ -993,5 +1014,15 @@ ul li .footer-links-header {
     display: grid;
     grid-template: auto/repeat(4, max-content);
     grid-gap: 13px;    
+}
+
+.footer-logo-gamespot {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo-gamespot>i svg {
+    
+    fill: #fd0;
 }
 /* END FOOTER */
