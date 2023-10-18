@@ -1026,3 +1026,29 @@ ul li .footer-links-header {
     fill: #fd0;
 }
 /* END FOOTER */
+
+/* RESPONSIBLE */
+@media screen and (max-width: 450px){
+    .header-main {
+        display: none;
+    }
+
+    .main-news {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-news-promo {
+        margin: 10px;
+    }
+
+    .box-news-promo .box-news-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 30px;
+        
+    }
+}
+
+
+
