@@ -969,6 +969,10 @@ svg {
     color: #767474;
 }
 
+#footer-network-about {
+    display: flex;
+}
+
 .footer-links {
     display: flex;
     justify-content: space-between;
@@ -1065,15 +1069,36 @@ ul li .footer-links-header {
     .secondary-content {
         display: none;
     }
+
+    .editorial-box-img img{
+        position: relative;
+        width: 119px;
+    }
     
+    .editorial-box-title{
+        font-size: 15px;
+        font-weight:900;
+    }
+
     .footer-links {
         width: 100%;
     }
- 
-    .footer-header .footer-header-left {
+
+    #footer-network-about {
+        display: flex;
         width: 100%;
+        font-size: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .footer-header .footer-header-left ul {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     #teste {
