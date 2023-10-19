@@ -1062,16 +1062,14 @@ ul li .footer-links-header {
         -webkit-overflow-scrolling: touch;
     }
 
-    .front-door,
-    .front-door-reviews {
+    .secondary-content {
         display: none;
     }
     
     .footer-links {
         width: 100%;
     }
-
-   
+ 
     .footer-header .footer-header-left {
         width: 100%;
         display: flex;
