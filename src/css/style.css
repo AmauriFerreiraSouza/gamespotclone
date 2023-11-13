@@ -1091,7 +1091,10 @@ ul li .footer-links-header {
 
     #footer-network-about a {
         color: white;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        font-size: 15px;
     }
 
     .footer-header .footer-header-left ul {
@@ -1106,12 +1109,32 @@ ul li .footer-links-header {
         padding: 0;
     }
 
-    .footer-network-about li {
-        margin-right: 5px;
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
-    #teste {
+    ul li .footer-links-header {
+        justify-content: center;
+    }
+
+    .footer-links #mores_sites {
         display: none;
+    }
+
+    .footer-links #shows {
+        display: none;
+    }
+
+    #talk_to_us {
+        display: none;
+    }
+
+    .footer-logo-gamespot {
+        margin-top: -20px;
     }
 
 }
